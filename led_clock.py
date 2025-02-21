@@ -6,8 +6,6 @@ import clock
 import port_definitions as pd
 
 display = siliconcraft_display.Display(pd.serial_port, pd.baud_rate, pd.display_id)
-# display.set_brightness()
-# display.set_protocol(38400, display_id)
 
 my_clock = clock.Display(display)
 old_time_string = ''

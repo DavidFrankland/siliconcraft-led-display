@@ -25,7 +25,7 @@ class Display:
         """
         self.write_bytes([0, 0, 0, 0, 0, 0])
 
-    def set_brightness(self):
+    def toggle_brightness(self):
         """
         Switch between low/high brightness.
         The display powers on at full brightness.
